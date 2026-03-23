@@ -1,7 +1,7 @@
 # Diffusion Posterior Sampling Tutorial
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GabrielMissael/diffusion_posterior_tutorial/blob/main/notebooks/diffusion_posterior_sampling.ipynb)
-[![View on GitHub](https://img.shields.io/badge/GitHub-View%20Notebook-black?logo=github)](https://github.com/GabrielMissael/diffusion_posterior_tutorial/blob/main/notebooks/diffusion_posterior_sampling.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/GabrielMissael/diffusion_posterior_tutorial/blob/master/notebooks/diffusion_posterior_sampling.ipynb)
+[![View on GitHub](https://img.shields.io/badge/GitHub-View%20Notebook-black?logo=github)](https://github.com/GabrielMissael/diffusion_posterior_tutorial/blob/master/notebooks/diffusion_posterior_sampling.ipynb)
 
 This repository contains a Jupyter tutorial on diffusion posterior sampling for astronomical inverse problems. It starts with PSF deconvolution and super-resolution, then extends the same Bayesian logic to strong-lensing source inference with a fixed lens model and a diffusion prior.
 
