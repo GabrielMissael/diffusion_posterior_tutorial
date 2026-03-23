@@ -1,0 +1,7 @@
+.pytest_cache/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+model/
+*.egg-info/
+.DS_Store

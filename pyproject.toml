@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffusion-posterior-tutorial"
+version = "0.1.0"
+description = "Graduate tutorial repository for diffusion posterior sampling in astronomical inverse problems."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [
+  { name = "Gabriel Missael Barco" }
+]
+dependencies = [
+  "torch",
+  "numpy",
+  "matplotlib",
+  "scipy",
+  "ipywidgets",
+  "huggingface_hub",
+  "tqdm",
+  "pillow",
+  "caustics==1.2.0"
+]
+
+[project.optional-dependencies]
+test = [
+  "pytest"
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
