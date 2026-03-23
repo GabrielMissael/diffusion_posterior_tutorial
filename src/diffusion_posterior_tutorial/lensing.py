@@ -55,7 +55,7 @@ class TutorialLensingSimulator(Module):
         source_pixels: int = SOURCE_NPIX,
         observation_pixels: int = OBS_NPIX,
         source_fov: float = 6.0,
-        observation_fov: float = 10.0,
+        observation_fov: float = 12.0,
         z_l: float = 0.5,
         z_s: float = 1.0,
         device: Optional[torch.device] = None,
